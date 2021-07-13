@@ -22,7 +22,7 @@ class _MapScreenState extends State<MapScreen> {
   List<LatLng> polylineCoordinates = [];
   PolylinePoints polylinePoints = PolylinePoints();
 
-  String googleAPiKey = "AIzaSyB-hjDxDqZbJboc82-H2VGHm2PzhklPEYw";
+  String googleAPiKey = "<APIKEY>";
   late GoogleMapController mapController;
 
   Completer<GoogleMapController> _controller = Completer();
